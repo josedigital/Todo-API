@@ -30,7 +30,7 @@ sequelize.sync({
     } else {
       console.log('todo does not exist');
     }
-    
+
   });
 
   // Todo.create({
@@ -44,7 +44,7 @@ sequelize.sync({
   //   return Todo.findAll({
   //     where : {
   //       description: {
-  //         $like: '%learn%'  
+  //         $like: '%learn%'
   //       }
   //     }
   //   });
@@ -62,4 +62,3 @@ sequelize.sync({
 
 
 });
-
